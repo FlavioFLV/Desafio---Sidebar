@@ -1,0 +1,107 @@
+:root {
+    --body-bg-color: #dce4e3;
+    --green: #18c29c;
+    --light-green: #8ed7c6;
+    --light-grey: #dce4e3;
+    --text-color: #084236;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--text-color);
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+}
+
+#container-sidebar {
+    background-color: var(--green);
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#top-sidebar {
+    margin-bottom: 1.675rem;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+#top-sidebar #logo {
+    padding-left: 1rem;
+}
+
+#top-sidebar #menu {
+    cursor: pointer;
+}
+
+#nav-sidebar {
+    padding: 1.5rem .875rem 0;
+}
+
+#nav-sidebar ul li {
+    width: 13.875rem;
+    height: 3.125rem;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding-left: .875rem;
+    border-radius: .75rem;
+}
+#nav-sidebar ul li:hover  {
+    cursor: pointer;
+    background-color: var(--light-green);
+}
+
+#nav-sidebar ul li a {
+    display: flex;
+    gap: .875rem;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+#bottom-sidebar #log-out {
+    height: 3.75rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem .875rem;
+    background-color: var(--light-green);
+}
+
+#bottom-sidebar #log-out #user {
+    display: flex;
+    gap: .675rem;
+}
+
+#user-photo {
+    height: 2.875rem;
+    width: 2.875rem;
+    border-radius: .75rem;
+}
+
+#user-data {
+    line-height: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#bottom-sidebar #log-out #user span {
+    font-size: 1rem;
+}
+
+#bottom-sidebar #log-out #user p {
+    font-size: .75rem;
+}
+
+main {
+    padding: 1.125rem;
+}
