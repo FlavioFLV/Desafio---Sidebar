@@ -1,5 +1,5 @@
 # Desafio-Sidebar 🚀
-**_(Este projeto foi desenvolvido para fins de treinamento, fornecido pela Rockeseat 🚀)_**
+**_(Este projeto foi desenvolvido para fins de treinamento, feito por Rockeseat 🚀)_**
 
 Sobre o desafio
 
