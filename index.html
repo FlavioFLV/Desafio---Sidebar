@@ -15,21 +15,53 @@
     <title>Sidebar</title>
 </head>
 <body>
-    <div id="container-sidebar">
-        <div id="nav-sidebar">
+    <div id="sidebar-container">
+        <nav id="nav-sidebar">
             <div id="top-sidebar">
-                <img id="logo" src="/assets/logo.svg" alt="logo_icon">
-                <img id="menu" src="/assets/menu.svg" alt="menu_icon">
+                <div>
+                    <img id="logo" src="/assets/logo.svg" alt="logo_icon">
+                </div>
+                <img id="menuToggle" src="/assets/menu.svg" alt="menu_icon">
             </div>
             <ul>
-                <li><a href="#"><img class="icon" src="/assets/search.svg" alt="serach_icon">Buscar</a></li>
-                <li><a href="#"><img class="icon" src="/assets/grid.svg" alt="dashboard_icon">Dashboard</a></li>
-                <li><a href="#"><img class="icon" src="/assets/pet.svg" alt="pet_icon">Pets</a></li>
-                <li><a href="#"><img class="icon" src="/assets/user.svg" alt="user_icon">Clientes</a></li>
-                <li><a href="#"><img class="icon" src="/assets/vet.svg" alt="vet_icon">Vets</a></li>
-                <li><a href="#"><img class="icon" src="/assets/settings.svg" alt="settings_icon">Ajustes</a></li>
+                <li selected>
+                    <a href="#">
+                        <img class="sidebar-item" src="/assets/search.svg" alt="serach_icon">
+                        <span>Buscar</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img class="sidebar-item" src="/assets/grid.svg" alt="dashboard_icon">
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img class="sidebar-item" src="/assets/pet.svg" alt="pet_icon">
+                        <span>Pets</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img class="sidebar-item" src="/assets/user.svg" alt="user_icon">
+                        <span>Clientes</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img class="sidebar-item" src="/assets/vet.svg" alt="vet_icon">
+                        <span>Vets</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img class="sidebar-item" src="/assets/settings.svg" alt="settings_icon">
+                        <span>Ajustes</span>
+                    </a>
+                </li>
             </ul>
-        </div>
+        </nav>
         <div id="bottom-sidebar">
             <div id="log-out">
                 <div id="user">
@@ -39,12 +71,15 @@
                         <p>Veterinária</p>
                     </div>
                 </div>
-                <a href="#"><img src="/assets/log-out.svg" alt="log-out_icon"></a>
+                <a id="log-out-button" href="#"><img src="/assets/log-out.svg" alt="log-out_icon"></a>
             </div>
         </div>
+        
     </div>
+
     <main>
         <h1>Dashboard</h1>
     </main>
+    <script src="/javascript/index.js"></script>
 </body>
 </html>
