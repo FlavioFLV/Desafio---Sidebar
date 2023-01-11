@@ -28,7 +28,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
 
-    transition: background-color 4s;
+    transition: .4s;
 }
 
 #top-sidebar {
